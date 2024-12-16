@@ -24,6 +24,5 @@ This repository contains an automation framework for testing the Petstore API (h
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/mohdosama99/api-automation.git
-cd petstore-api-automation
+git clone [https://github.com/mohdosama99/api-automation.git](https://github.com/mohdosama99/api-automation.git)
 
