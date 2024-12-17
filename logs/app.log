@@ -44,3 +44,33 @@
 					Response received for delete: {"code":200,"type":"unknown","message":"benjamin.fadel"}
 2024-12-17 01:57:40 [main] INFO  api.test.UserTests -
 					********** User Deleted **********
+2024-12-17 15:11:46 [main] DEBUG api.test.UserTests -
+					Logger initialized for class: UserTests
+2024-12-17 15:11:46 [main] INFO  api.test.UserTests -
+					********** Creating User **********
+2024-12-17 15:11:46 [main] DEBUG api.test.UserTests -
+					Payload for POST request: api.payload.User@5f61371d
+2024-12-17 15:11:49 [main] DEBUG api.test.UserTests -
+					Response received: {"code":200,"type":"unknown","message":"1293226111"}
+2024-12-17 15:11:49 [main] INFO  api.test.UserTests -
+					********** User is created **********
+2024-12-17 15:11:49 [main] INFO  api.test.UserTests -
+					********** Reading User Info **********
+2024-12-17 15:11:49 [main] DEBUG api.test.UserTests -
+					Requesting user info for username: leonarda.wolf
+2024-12-17 15:11:52 [main] DEBUG api.test.UserTests -
+					Response received: {"id":1293226111,"username":"leonarda.wolf","firstName":"Venessa","lastName":"Walter","email":"leonida.batz@example.com","password":"wg6jpa9","phone":"(892) 220-8747","userStatus":0}
+2024-12-17 15:11:52 [main] INFO  api.test.UserTests -
+					********** User Info is Displayed **********
+2024-12-17 15:11:52 [main] INFO  api.test.UserTests -
+					********** Updating User **********
+2024-12-17 15:11:52 [main] DEBUG api.test.UserTests -
+					Payload for PUT request: api.payload.User@5f61371d
+2024-12-17 15:11:52 [main] INFO  api.test.UserTests -
+					********** Deleting User **********
+2024-12-17 15:11:52 [main] DEBUG api.test.UserTests -
+					Deleting user with username: leonarda.wolf
+2024-12-17 15:11:53 [main] DEBUG api.test.UserTests -
+					Response received for delete: {"code":200,"type":"unknown","message":"leonarda.wolf"}
+2024-12-17 15:11:53 [main] INFO  api.test.UserTests -
+					********** User Deleted **********

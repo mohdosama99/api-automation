@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-17T01:57:34 IST" name="Suite" finished-at="2024-12-17T01:57:40 IST" duration-ms="5792">
+  <suite started-at="2024-12-17T15:11:46 IST" name="Suite" finished-at="2024-12-17T15:11:53 IST" duration-ms="7413">
     <groups>
     </groups>
-    <test started-at="2024-12-17T01:57:34 IST" name="Test" finished-at="2024-12-17T01:57:40 IST" duration-ms="5792">
+    <test started-at="2024-12-17T15:11:46 IST" name="Test" finished-at="2024-12-17T15:11:53 IST" duration-ms="7413">
       <class name="api.test.UserTests">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@564fabc8]" started-at="2024-12-17T01:57:34 IST" name="setupData" finished-at="2024-12-17T01:57:35 IST" duration-ms="497" status="PASS">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@1725dc0f]" started-at="2024-12-17T15:11:46 IST" name="setupData" finished-at="2024-12-17T15:11:46 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@564fabc8]" started-at="2024-12-17T01:57:35 IST" name="testPostUser" finished-at="2024-12-17T01:57:37 IST" duration-ms="2444" status="PASS">
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@1725dc0f]" started-at="2024-12-17T15:11:46 IST" name="testPostUser" finished-at="2024-12-17T15:11:49 IST" duration-ms="2587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testGetuserByName()[pri:2, instance:api.test.UserTests@564fabc8]" started-at="2024-12-17T01:57:37 IST" name="testGetuserByName" finished-at="2024-12-17T01:57:38 IST" duration-ms="1202" status="PASS">
+        <test-method signature="testGetuserByName()[pri:2, instance:api.test.UserTests@1725dc0f]" started-at="2024-12-17T15:11:49 IST" name="testGetuserByName" finished-at="2024-12-17T15:11:52 IST" duration-ms="2894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetuserByName -->
-        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests@564fabc8]" started-at="2024-12-17T01:57:38 IST" name="testUpdateUserByName" finished-at="2024-12-17T01:57:38 IST" duration-ms="37" status="FAIL">
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserTests@1725dc0f]" started-at="2024-12-17T15:11:52 IST" name="testUpdateUserByName" finished-at="2024-12-17T15:11:52 IST" duration-ms="26" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Invalid number of path parameters. Expected 1, was 0. Undefined path parameters are: username.]]>
@@ -115,26 +115,26 @@ at api.test.UserTests.testUpdateUserByName(UserTests.java:74)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
@@ -144,7 +144,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUserByName -->
-        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests@564fabc8]" started-at="2024-12-17T01:57:38 IST" name="testDeleteUserByName" finished-at="2024-12-17T01:57:40 IST" duration-ms="1427" status="PASS">
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests@1725dc0f]" started-at="2024-12-17T15:11:52 IST" name="testDeleteUserByName" finished-at="2024-12-17T15:11:53 IST" duration-ms="1284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUserByName -->

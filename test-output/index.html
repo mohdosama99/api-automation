@@ -5,9 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -24,7 +23,6 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
@@ -263,7 +261,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/mohdosama/Desktop/selenium_learning/APIAutomation/testng.xml</span>
+            <span class="header-content">/Users/mohdosama/Desktop/api-automation/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -317,26 +315,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testPostUser')
+data.setCell(0, 1, 'testGetuserByName')
 data.setCell(0, 2, 'api.test.UserTests')
-data.setCell(0, 3, 2444);
+data.setCell(0, 3, 2894);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testDeleteUserByName')
+data.setCell(1, 1, 'testPostUser')
 data.setCell(1, 2, 'api.test.UserTests')
-data.setCell(1, 3, 1427);
+data.setCell(1, 3, 2587);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testGetuserByName')
+data.setCell(2, 1, 'testDeleteUserByName')
 data.setCell(2, 2, 'api.test.UserTests')
-data.setCell(2, 3, 1202);
+data.setCell(2, 3, 1284);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testUpdateUserByName')
 data.setCell(3, 2, 'api.test.UserTests')
-data.setCell(3, 3, 37);
+data.setCell(3, 3, 26);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -369,26 +367,25 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testPostUser</span>
-                <span class="method-start">502 ms</span>
+                <span class="method-start">433 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetuserByName</span>
-                <span class="method-start">2952 ms</span>
+                <span class="method-start">3027 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testUpdateUserByName</span>
-                <span class="method-start">4157 ms</span>
+                <span class="method-start">5925 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName</span>
-                <span class="method-start">4198 ms</span>
+                <span class="method-start">5954 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
-<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
