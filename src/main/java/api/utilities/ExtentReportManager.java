@@ -23,16 +23,15 @@ public class ExtentReportManager implements ITestListener {
 
 	public void onStart(ITestContext testContext) {
 		System.out.println("onStart called");
-		String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
+		String timeStamp = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss_a").format(new Date());
 
-		repName = "Test-report" + timeStamp + ".html";
+		repName = "Test-report_" + timeStamp + ".html";
 		String currentDir = System.getProperty("user.dir");
-		System.out.println("-------->>>>"+currentDir+"/reports"+repName);
 		//sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);
 		sparkReporter = new ExtentSparkReporter(currentDir+"/reports/"+repName);
 		sparkReporter.config().setDocumentTitle("RestAssuredAutomationProject");
 		sparkReporter.config().setReportName("Pet Store API");
-		sparkReporter.config().setTheme(Theme.STANDARD);
+		sparkReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);

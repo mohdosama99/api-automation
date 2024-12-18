@@ -1,12 +1,11 @@
 package api.endpoints;
-
 import static io.restassured.RestAssured.*;
 
 import api.payload.User;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-import io.restassured.http.ContentType;
+
 // CRUD method implementation
 
 public class UserEndPoints {
@@ -22,8 +21,8 @@ public class UserEndPoints {
 		return response;
 	}
 
-	public static Response updateUser(String userName, User payload) {
-		Response response = given().contentType(ContentType.JSON).accept(ContentType.JSON).param("username", userName)
+	public static Response updateUser(String username, User payload) {
+		Response response = given().contentType(ContentType.JSON).accept(ContentType.JSON).param("username", username)
 				.body(payload).when().put(Routes.update_url);
 		return response;
 	}
